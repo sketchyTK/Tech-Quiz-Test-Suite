@@ -37,4 +37,4 @@ Here is a link to my Github Profile: <a href="https://github.com/sketchyTK">Sket
 
 <a href="https://github.com/sketchyTK/Tech-Quiz-Test-Suite">GitHub repository</a>
 
-<a href="#">Walkthrough Video</a>
+<a href="https://drive.google.com/file/d/13vTimt5gNqn6OmHhl4b8Wp0hNfX2Pzze/view">Walkthrough Video</a>
