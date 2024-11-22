@@ -1,5 +1,7 @@
 # Tech Quiz Test Suite
 
+![Screenshot of End to End Cypress test results](e2e-test-results.png)
+
 ## Description
 
 This is a UMN Coding Module Challenge. The goal was to implement Cypress component and end-to-end testing for a Tech Quiz application. 
