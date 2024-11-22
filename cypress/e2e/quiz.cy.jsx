@@ -9,26 +9,26 @@ describe('E2E Quiz Test', () => {
         cy.get('button').should('exist').should('have.text', 'Start Quiz').click()
         cy.wait('@quizQuestions');
         cy.get('.mt-3')
-            .find('.btn.btn-primary').eq(0).click();
+            .find('.btn.btn-primary').eq(1).click();
+        cy.get('.mt-3')
+            .find('.btn.btn-primary').eq(2).click();
+        cy.get('.mt-3')
+            .find('.btn.btn-primary').eq(2).click();
         cy.get('.mt-3')
             .find('.btn.btn-primary').eq(2).click();
         cy.get('.mt-3')
             .find('.btn.btn-primary').eq(1).click();
         cy.get('.mt-3')
-            .find('.btn.btn-primary').eq(3).click();
+            .find('.btn.btn-primary').eq(0).click();
+        cy.get('.mt-3')
+            .find('.btn.btn-primary').eq(0).click();
         cy.get('.mt-3')
             .find('.btn.btn-primary').eq(1).click();
         cy.get('.mt-3')
-            .find('.btn.btn-primary').eq(2).click();
+            .find('.btn.btn-primary').eq(1).click();
         cy.get('.mt-3')
-            .find('.btn.btn-primary').eq(0).click();
-        cy.get('.mt-3')
-            .find('.btn.btn-primary').eq(3).click();
-        cy.get('.mt-3')
-            .find('.btn.btn-primary').eq(3).click();
-        cy.get('.mt-3')
-            .find('.btn.btn-primary').eq(0).click();
-
+            .find('.btn.btn-primary').eq(1).click();
+ cy.pause();
         cy.get('.card.p-4.text-center').should('exist')
             .find('h2').should('exist').and('include.text', 'Quiz Completed');
 
